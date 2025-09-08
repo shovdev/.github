@@ -2,7 +2,7 @@
 <!-- Triggering sync -->
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/shov-com/shov/master/public/logos/shov-logo-white.svg" alt="Shov Logo" width="400"/>
+  <img src="https://shov.com/logos/shov-logo-white.svg" alt="Shov Logo" width="400"/>
 </div>
 
 <h1 align="center">The AI Memory Engine</h1>
@@ -14,9 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://shov.com"><strong>Website</strong></a> ·
-  <a href="https://shov.com/docs"><strong>Documentation</strong></a> ·
-  <a href="https://shov.com/blog"><strong>Blog</strong></a>
+  <a href="https://shov.com"><strong>Website / Docs</strong></a> ·  
 </p>
 
 ---
