@@ -58,7 +58,7 @@ Explore practical, real-world examples of how to build with Shov in our examples
 
 ## Contributing
 
-We are building Shov in the open and welcome community contributions. Please see our main [Contributing Guide](https://github.com/shov-com/.github/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/shov-com/.github/blob/main/CODE_OF_CONDUCT.md) for more information.
+We are building Shov in the open and welcome community contributions. 
 
 ---
 
