@@ -30,6 +30,16 @@ Shov is a serverless data layer built on Cloudflare's global network, designed t
 
 Every piece of data you write to the Key/Value store or a Collection is **automatically embedded and indexed** for vector search, giving your application an AI-native memory out of the box.
 
+## Blazing Fast Performance
+
+Shov is built on Cloudflare's global network to deliver consistent, low-latency performance wherever your users are.
+
+| Metric          | Typical Latency | Description                  |
+| --------------- | --------------- | ---------------------------- |
+| **Edge Reads**  | `~50ms`         | Cached reads at the edge.    |
+| **Cold Reads**  | `~62ms`         | Uncached reads from origin.  |
+| **Edge Writes** | `~55ms`         | Writes replicated globally.  |
+
 ## Quick Start: Zero to AI Memory in 30 Seconds
 
 You don't need an account or credit card to get started.
@@ -81,16 +91,6 @@ shov search products "a stringed instrument"
 ```
 
 That's it. You now have a fully-featured, globally-replicated backend with AI search capabilities.
-
-## Blazing Fast Performance
-
-Shov is built on Cloudflare's global network to deliver consistent, low-latency performance wherever your users are.
-
-| Metric          | Typical Latency | Description                  |
-| --------------- | --------------- | ---------------------------- |
-| **Edge Reads**  | `~50ms`         | Cached reads at the edge.    |
-| **Cold Reads**  | `~62ms`         | Uncached reads from origin.  |
-| **Edge Writes** | `~55ms`         | Writes replicated globally.  |
 
 ## Our Public Packages
 
