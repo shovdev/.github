@@ -8,7 +8,7 @@
 <h1 align="center">The AI Memory Engine</h1>
 
 <p align="center">
-  <strong>Instant, serverless infrastructure for AI applications and prototypes.</strong>
+  <strong>Instant, serverless memory infrastructure for AI applications and prototypes.</strong>
   <br />
   Every record you store is instantly vector-searchable. No setup, no extra services.
 </p>
@@ -40,37 +40,42 @@ You don't need an account or credit card to get started.
 npm install -g shov
 ```
 
-### 2. Create a Project
+### 2. Create a Project & Add Data
 
-This command provisions a new project on the edge, complete with a database, file storage, and vector index. It will return a new API key for you to use.
+This command provisions a new project and adds a collection of musical instruments.
 
 ```bash
-shov new my-first-project
+shov new my-music-store
+shov add-many products '[
+  { "name": "Fender Stratocaster", "type": "Electric Guitar" },
+  { "name": "Ibanez RG550", "type": "Electric Guitar" },
+  { "name": "Roland TD-27KV", "type": "Electronic Drums" }
+]'
 ```
 
-### 3. Start Building
+### 3. Search Semantically
 
-Your backend is ready. Use the CLI or SDK to start interacting with your data.
+Your backend is ready. Use vector search to find instruments by meaning, not just keywords.
 
-**Set a key-value pair:**
 ```bash
-shov set greeting "Hello from the edge"
+shov search products "a stringed instrument"
+# > [
+# >   { "name": "Fender Stratocaster", "type": "Electric Guitar" },
+# >   { "name": "Ibanez RG550", "type": "Electric Guitar" }
+# > ]
 ```
 
-**Get it back:**
-```bash
-shov get greeting
-# > "Hello from the edge"
-```
+That's it. You now have a fully-featured, globally-replicated backend with AI search capabilities.
 
-**Add a user to a collection and search for them semantically:**
-```bash
-shov add users '{"name": "Alice", "bio": "Loves mountain biking"}'
-shov search users "outdoorsy person"
-# > { "name": "Alice", "bio": "Loves mountain biking" }
-```
+## Blazing Fast Performance
 
-That's it. You now have a fully-featured, globally-replicated backend.
+Shov is built on Cloudflare's global network to deliver consistent, low-latency performance wherever your users are.
+
+| Metric          | Typical Latency | Description                  |
+| --------------- | --------------- | ---------------------------- |
+| **Edge Reads**  | `~50ms`         | Cached reads at the edge.    |
+| **Cold Reads**  | `~62ms`         | Uncached reads from origin.  |
+| **Edge Writes** | `~55ms`         | Writes replicated globally.  |
 
 ## Our Public Packages
 
