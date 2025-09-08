@@ -35,29 +35,44 @@ Every piece of data you write to the Key/Value store or a Collection is **automa
 You don't need an account or credit card to get started.
 
 ### 1. Install the CLI
-
 ```bash
 npm install -g shov
 ```
 
-### 2. Create a Project & Add Data
-
-This command provisions a new project and adds a collection of musical instruments.
+### 2. Create Your Project
+This single command provisions a new project on Cloudflare's global network, instantly giving you a database, file storage, a vector index, and a secure API key. No sign-up required.
 
 ```bash
-shov new my-music-store
+shov new my-first-project
+#
+# ✔ Project 'my-first-project' created
+# ✔ API Key: shov_live_...
+#
+```
+
+### 3. Start Building
+Your backend is ready. Use your new API key with the CLI or SDKs to start building.
+
+**Example A: Simple Key/Value**
+```bash
+# Set a value at the edge
+shov set greeting "Hello from Shov"
+
+# Get it back instantly from anywhere
+shov get greeting
+# > "Hello from Shov"
+```
+
+**Example B: AI-Powered Collections**
+```bash
+# Add a collection of items
 shov add-many products '[
   { "name": "Fender Stratocaster", "type": "Electric Guitar" },
   { "name": "Ibanez RG550", "type": "Electric Guitar" },
   { "name": "Roland TD-27KV", "type": "Electronic Drums" }
 ]'
-```
 
-### 3. Search Semantically
-
-Your backend is ready. Use vector search to find instruments by meaning, not just keywords.
-
-```bash
+# Find them with semantic search
 shov search products "a stringed instrument"
 # > [
 # >   { "name": "Fender Stratocaster", "type": "Electric Guitar" },
