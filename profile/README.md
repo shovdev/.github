@@ -30,6 +30,48 @@ Shov is a serverless data layer built on Cloudflare's global network, designed t
 
 Every piece of data you write to the Key/Value store or a Collection is **automatically embedded and indexed** for vector search, giving your application an AI-native memory out of the box.
 
+## Quick Start: Zero to AI Memory in 30 Seconds
+
+You don't need an account or credit card to get started.
+
+### 1. Install the CLI
+
+```bash
+npm install -g shov
+```
+
+### 2. Create a Project
+
+This command provisions a new project on the edge, complete with a database, file storage, and vector index. It will return a new API key for you to use.
+
+```bash
+shov new my-first-project
+```
+
+### 3. Start Building
+
+Your backend is ready. Use the CLI or SDK to start interacting with your data.
+
+**Set a key-value pair:**
+```bash
+shov set greeting "Hello from the edge"
+```
+
+**Get it back:**
+```bash
+shov get greeting
+# > "Hello from the edge"
+```
+
+**Add a user to a collection and search for them semantically:**
+```bash
+shov add users '{"name": "Alice", "bio": "Loves mountain biking"}'
+shov search users "outdoorsy person"
+# > { "name": "Alice", "bio": "Loves mountain biking" }
+```
+
+That's it. You now have a fully-featured, globally-replicated backend.
+
 ## Our Public Packages
 
 This organization is home to the open-source clients and tools for interacting with the Shov platform.
