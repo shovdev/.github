@@ -83,7 +83,7 @@ shov add-many products '[
 ]'
 
 # Find them with semantic search
-shov search "a stringed instrument" --collection products
+shov search "a stringed instrument" -c products
 # > [
 # >   { "name": "Fender Stratocaster", "type": "Electric Guitar" },
 # >   { "name": "Ibanez RG550", "type": "Electric Guitar" }
