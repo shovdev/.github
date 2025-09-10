@@ -83,11 +83,17 @@ shov add-many products '[
 ]'
 
 # Find them with semantic search
-shov search products "a stringed instrument"
+shov search "a stringed instrument" --collection products
 # > [
 # >   { "name": "Fender Stratocaster", "type": "Electric Guitar" },
 # >   { "name": "Ibanez RG550", "type": "Electric Guitar" }
 # > ]
+
+# See all items in your project
+shov contents
+
+# Clear a collection
+shov clear products
 ```
 
 That's it. You now have a fully-featured, globally-replicated backend with AI search capabilities.
