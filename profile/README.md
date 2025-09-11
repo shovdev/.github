@@ -128,6 +128,16 @@ Explore practical, real-world examples of how to build with Shov in our examples
 
 We are building Shov in the open and welcome community contributions. 
 
+## Community & Support
+
+<p align="center">
+  <a href="https://shov.com"><strong>Documentation</strong></a> •
+  <a href="https://github.com/shovdev"><strong>GitHub</strong></a> •
+  <a href="https://x.com/shovdev"><strong>X/Twitter</strong></a> •
+  <a href="https://www.reddit.com/r/shov/"><strong>Reddit</strong></a> •
+  <a href="https://discord.gg/GB3rDcFrGz"><strong>Discord</strong></a>
+</p>
+
 ---
 
 <p align="center">
