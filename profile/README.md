@@ -93,6 +93,9 @@ shov search "a stringed instrument" -c products
 # >   { "name": "Ibanez RG550", "type": "Electric Guitar" }
 # > ]
 
+# Advanced search with filters and JSON output
+shov search "musical equipment" --filters '{"type": "Electric Guitar"}' --json
+
 # See all items in your project
 shov contents
 
