@@ -14,7 +14,11 @@
 </p>
 
 <p align="center">
-  <a href="https://shov.com"><strong>Website / Docs</strong></a>  
+  <a href="https://shov.com"><strong>Website / Docs</strong></a> •
+  <a href="https://github.com/shovdev"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a> •
+  <a href="https://x.com/shovdev"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" alt="X"></a> •
+  <a href="https://www.reddit.com/r/shov/"><img src="https://img.shields.io/badge/Reddit-FF4500?style=flat&logo=reddit&logoColor=white" alt="Reddit"></a> •
+  <a href="https://discord.gg/GB3rDcFrGz"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
 ---
@@ -128,15 +132,6 @@ Explore practical, real-world examples of how to build with Shov in our examples
 
 We are building Shov in the open and welcome community contributions. 
 
-## Community & Support
-
-<p align="center">
-  <a href="https://shov.com"><strong>Documentation</strong></a> •
-  <a href="https://github.com/shovdev"><strong>GitHub</strong></a> •
-  <a href="https://x.com/shovdev"><strong>X/Twitter</strong></a> •
-  <a href="https://www.reddit.com/r/shov/"><strong>Reddit</strong></a> •
-  <a href="https://discord.gg/GB3rDcFrGz"><strong>Discord</strong></a>
-</p>
 
 ---
 
