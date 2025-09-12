@@ -14,11 +14,11 @@
 </p>
 
 <p align="center">
-  <a href="https://shov.com"><strong>Website / Docs</strong></a> •
-  <a href="https://github.com/shovdev"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a> •
-  <a href="https://x.com/shovdev"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" alt="X"></a> •
-  <a href="https://www.reddit.com/r/shov/"><img src="https://img.shields.io/badge/Reddit-FF4500?style=flat&logo=reddit&logoColor=white" alt="Reddit"></a> •
-  <a href="https://discord.gg/GB3rDcFrGz"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="https://shov.com" target="_blank"><strong>Website / Docs</strong></a> •
+  <a href="https://github.com/shovdev" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a> •
+  <a href="https://x.com/shovdev" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" alt="X"></a> •
+  <a href="https://www.reddit.com/r/shov/" target="_blank"><img src="https://img.shields.io/badge/Reddit-FF4500?style=flat&logo=reddit&logoColor=white" alt="Reddit"></a> •
+  <a href="https://discord.gg/GB3rDcFrGz" target="_blank"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
 ---
@@ -111,8 +111,6 @@ This organization is home to the open-source clients and tools for interacting w
 | Language       | Package                                     | Repository                                       |
 | -------------- | ------------------------------------------- | ------------------------------------------------ |
 | **JavaScript** | [`shov-sdk`](https://www.npmjs.com/package/shov-sdk) | [shov-sdk-js](./shov-sdk-js)                     |
-| **Python**     | `(coming soon)`                             | `(coming soon)`                                  |
-| **Go**         | `(coming soon)`                             | `(coming soon)`                                  |
 
 ### Command Line Interface (CLI)
 
@@ -120,13 +118,6 @@ This organization is home to the open-source clients and tools for interacting w
 | ------------------------------------- | -------------------------------------- |
 | [`shov`](https://www.npmjs.com/package/shov) | [shov-cli](./shov-cli)                 |
 
-### Examples
-
-Explore practical, real-world examples of how to build with Shov in our examples repository.
-
-| Description                               | Repository                                   |
-| ----------------------------------------- | ------------------------------------------ |
-| Sample apps and common use-cases          | [shov-examples](./shov-examples)             |
 
 ## Contributing
 
@@ -136,5 +127,5 @@ We are building Shov in the open and welcome community contributions.
 ---
 
 <p align="center">
-  <a href="https://shov.com/login">Get Started for Free</a>
+  <a href="https://shov.com/login" target="_blank">Get Started for Free</a>
 </p>
