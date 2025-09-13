@@ -113,7 +113,7 @@ This organization is home to the open-source clients and tools for interacting w
 
 | Language       | Package                                     | Repository                                       |
 | -------------- | ------------------------------------------- | ------------------------------------------------ |
-| **JavaScript** | [`shov-sdk`](https://www.npmjs.com/package/shov-sdk) | [shov-sdk-js](./shov-sdk-js)                     |
+| **JavaScript** | [`shov-js`](https://www.npmjs.com/package/shov-js) | [shov-js](./shov-js)                     |
 
 ### Command Line Interface (CLI)
 
