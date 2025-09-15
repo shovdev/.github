@@ -25,12 +25,13 @@
 
 ## What is Shov?
 
-Shov is a serverless data layer built on Cloudflare's global network, designed to eliminate all setup friction for developers building modern applications. It provides four core data primitives with zero configuration:
+Shov is a serverless data layer built on Cloudflare's global network, designed to eliminate all setup friction for developers building modern applications. It provides five core data primitives with zero configuration:
 
 -   **Key/Value Store:** For configuration, sessions, and simple data.
 -   **JSON Collections:** For structured objects like users, products, or logs.
 -   **File Storage:** For any file type, delivered globally via CDN.
 -   **Vector Search:** For powerful semantic search across all your data.
+-   **Real-time Streaming:** For live updates, chat, and collaborative features.
 
 Every piece of data you write to the Key/Value store or a Collection is **automatically embedded and indexed** for vector search, giving your application an AI-native memory out of the box.
 
@@ -103,7 +104,22 @@ shov contents
 shov clear products
 ```
 
-That's it. You now have a fully-featured, globally-replicated backend with AI search capabilities.
+**Example C: Real-time Streaming**
+```bash
+# Subscribe to real-time updates (in one terminal)
+shov subscribe '[{"collection": "users"}, {"key": "config"}]'
+# > ✅ Connected to stream!
+# > 📡 Listening for real-time updates...
+
+# In another terminal, make changes to see live updates
+shov add users '{"name": "Alice", "status": "active"}'
+shov set config '{"theme": "dark"}'
+
+# Broadcast custom messages to subscribers
+shov broadcast '{"channel": "notifications"}' '{"text": "System maintenance in 5 minutes"}'
+```
+
+That's it. You now have a fully-featured, globally-replicated backend with AI search capabilities and real-time streaming.
 
 ## Our Public Packages
 
