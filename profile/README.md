@@ -39,11 +39,11 @@ Every piece of data you write to the Key/Value store or a Collection is **automa
 
 Shov is built on Cloudflare's global network to deliver consistent, low-latency performance wherever your users are.
 
-| Metric          | Typical Latency | Description                  |
-| --------------- | --------------- | ---------------------------- |
-| **Edge Reads**  | `~50ms`         | Cached reads at the edge.    |
-| **Cold Reads**  | `~62ms`         | Uncached reads from origin.  |
-| **Edge Writes** | `~55ms`         | Writes replicated globally.  |
+| Metric               | Typical Latency | Description                           |
+| -------------------- | --------------- | ------------------------------------- |
+| **Cached Reads**     | `~0.03ms`       | Write-through cached reads at edge.   |
+| **Cold Reads**       | `~80ms`         | Uncached reads from origin.           |
+| **Batch Operations** | `~19ms`         | Atomic batch operations per item.     |
 
 ## Quick Start: Zero to AI Memory in 30 Seconds
 
