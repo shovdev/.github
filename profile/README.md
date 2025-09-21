@@ -5,7 +5,7 @@
   <img src="https://shov.com/logos/shov-logo-white.svg" alt="Shov Logo" width="150"/>
 </div>
 
-<h1 align="center">The AI Database Engine</h1>
+<h1 align="center">The Instant AI-Powered Backends</h1>
 
 <p align="center">
   <strong>Instant, serverless memory infrastructure for AI applications and prototypes.</strong>
