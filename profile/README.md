@@ -5,7 +5,7 @@
   <img src="https://shov.com/logos/shov-logo-white.svg" alt="Shov Logo" width="150"/>
 </div>
 
-<h1 align="center">The The backend for AI-coded apps</h1>
+<h1 align="center">The backend for AI-coded apps</h1>
 
 <p align="center">
   <strong>Instant, serverless memory infrastructure for AI applications and prototypes.</strong>
@@ -123,7 +123,7 @@ That's it. You now have a fully-featured, globally-replicated backend with AI se
 
 ## Our Public Packages
 
-This organization is home to the open-source clients and tools for interacting with the Shov platform.
+This organization is home to the clients and tools for interacting with the Shov platform.
 
 ### SDKs
 
@@ -140,7 +140,7 @@ This organization is home to the open-source clients and tools for interacting w
 
 ## Contributing
 
-We are building Shov in the open and welcome community contributions. 
+We welcome community contributions to our public packages and tools. 
 
 
 ---
