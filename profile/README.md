@@ -5,7 +5,7 @@
   <img src="https://shov.com/logos/shov-logo-white.svg" alt="Shov Logo" width="150"/>
 </div>
 
-<h1 align="center">The backend for AI-coded apps</h1>
+<h1 align="center">Instant backends for AI-coded apps</h1>
 
 <p align="center">
   <strong>Instant, serverless memory infrastructure for AI applications and prototypes.</strong>
